@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ResetQuota async="false" continueOnError="false" enabled="true" name="resetquota-1">
+    <DisplayName>ResetQuota-1</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <Quota name="quotaName">
+        <Identifier name="identifierName" ref="request.header.identifier">
+            <Allow>100</Allow>
+        </Identifier>
+    </Quota>
+</ResetQuota>

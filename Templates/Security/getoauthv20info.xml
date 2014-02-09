@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GetOAuthV2Info async="false" continueOnError="false" enabled="true" name="getoauthv20info-1">
+    <DisplayName>GetOAuthv20Info-1</DisplayName>
+    <ClientId ref="{flow.variable}">{client id}</ClientId>
+    <AccessToken ref="{flow.variable}">{access token}</AccessToken>
+    <AuthorizationCode ref="{flow.variable}">{authorization code}</AuthorizationCode>
+    <RefreshToken ref="{flow.variable}">{refresh token}</RefreshToken>
+</GetOAuthV2Info>

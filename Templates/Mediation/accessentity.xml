@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AccessEntity async="false" continueOnError="false" enabled="true" name="accessentity-1">
+    <DisplayName>AccessEntity-1</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <EntityIdentifier ref="exampleIdentifier"></EntityIdentifier>
+    <EntityType value="developer"></EntityType>
+</AccessEntity>

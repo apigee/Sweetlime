@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<XSL async="false" continueOnError="false" enabled="true" name="xsltransform-1">
+    <DisplayName>XSLTransform-1</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <Source>request</Source>
+    <ResourceURL>xsl://xsltransform-1</ResourceURL>
+    <Parameters ignoreUnresolvedVariables="true" />
+    <OutputVariable></OutputVariable>
+</XSL>

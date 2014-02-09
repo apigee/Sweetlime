@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MessageLogging  async="false" continueOnError="false" enabled="true" name="messagelogging-1">
+    <DisplayName>MessageLogging-1</DisplayName>
+    <Syslog>
+        <Message>Message.id = {request.header.id}</Message>
+        <Host>IP</Host>
+        <Port>556</Port>
+    </Syslog>
+</MessageLogging>

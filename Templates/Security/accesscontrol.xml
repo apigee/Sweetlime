@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AccessControl async="false" continueOnError="false" enabled="true" name="accesscontrol-1">
+    <DisplayName>AccessControl-1</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <IPRules noRuleMatchAction="ALLOW">
+        <MatchRule action="ALLOW">
+            <SourceAddress mask="32">10.10.10.20</SourceAddress>
+        </MatchRule>
+        <MatchRule action="DENY">
+            <SourceAddress mask="24">10.10.10.20</SourceAddress>
+        </MatchRule>
+    </IPRules>
+</AccessControl>

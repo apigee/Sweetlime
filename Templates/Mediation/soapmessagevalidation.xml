@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MessageValidation async="false" continueOnError="false" enabled="true" name="soapmessagevalidation-1">
+    <DisplayName>SOAPMessageValidation-1</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <Element namespace="http://sample.com"> sampleObject</Element>
+    <SOAPMessage/>
+    <Source>request</Source>
+    <ResourceURL>wsdl://soapmessagevalidation-1</ResourceURL>
+</MessageValidation>

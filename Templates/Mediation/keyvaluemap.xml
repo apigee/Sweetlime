@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations async="false" continueOnError="false" enabled="true" name="keyvaluemapoperations-1">
+    <DisplayName>KeyValueMapOperations-1</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <ExclusiveCache>false</ExclusiveCache>
+    <ExpiryTimeInSecs>-1</ExpiryTimeInSecs>
+    <InitialEntries>
+        <Entry>
+            <Key>
+                <Parameter>k1</Parameter>
+            </Key>
+            <Value>v1</Value>
+        </Entry>
+        <Entry>
+            <Key>
+                <Parameter>k2</Parameter>
+            </Key>
+            <Value>v3</Value>
+            <Value>v4</Value>
+        </Entry>
+    </InitialEntries>
+    <Put override="false">
+        <Key>
+            <Parameter ref="mykeyvar"></Parameter>
+        </Key>
+        <Value ref="myvalvar1"/>
+    </Put>
+    <Get assignTo="myvar" index="1">
+        <Key>
+            <Parameter ref="myvar"></Parameter>
+        </Key>
+    </Get>
+    <Delete>
+        <Key>
+            <Parameter ref="myvar"></Parameter>
+        </Key>
+    </Delete>
+    <Scope>environment</Scope>
+</KeyValueMapOperations>

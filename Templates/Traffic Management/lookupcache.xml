@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LookupCache async="false" continueOnError="false" enabled="true" name="lookupcache-1">
+    <DisplayName>LookupCache-1</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <CacheKey>
+        <Prefix/>
+        <KeyFragment ref=""/>
+    </CacheKey>
+    <CacheResource/>
+    <Scope>Exclusive</Scope>
+    <AssignTo>flowVar</AssignTo>
+</LookupCache>

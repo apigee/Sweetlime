@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<InvalidateCache async="false" continueOnError="false" enabled="true" name="invalidatecache-1">
+    <DisplayName>InvalidateCache-1</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <CacheKey>
+        <Prefix/>
+        <KeyFragment ref=""/>
+    </CacheKey>
+    <CacheResource>default</CacheResource>
+    <Scope>Exclusive</Scope>
+    <CacheContext>
+        <APIProxyName/>
+        <ProxyName>default</ProxyName>
+        <TargetName>default</TargetName>
+    </CacheContext>
+    <PurgeChildEntries>false</PurgeChildEntries>
+</InvalidateCache>

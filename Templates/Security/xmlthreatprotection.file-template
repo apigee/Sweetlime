@@ -1,0 +1,13 @@
+<template>
+	<file>xmlthreatprotection.xml</file>
+
+	<!-- The filename for the new File, you can use the arguments to make it dynamic -->
+		<filename>$name.xml</filename>
+	<!--specify path if needed-->
+	<path>apiproxy/policies</path>
+
+	<!-- Optional: Add as much arguments as you need, they will be asked in the order specified -->
+	<arguments>
+		<name>Name (without extension):</name>
+	</arguments>
+</template>

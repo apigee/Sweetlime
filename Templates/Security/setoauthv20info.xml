@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SetOAuthV2Info async="false" continueOnError="false" enabled="true" name="setoauthv20info-1">
+    <DisplayName>SetOAuthv20Info-1</DisplayName>
+    <AccessToken ref="request.queryparam.accessToken"></AccessToken>
+    <Attributes/>
+</SetOAuthV2Info>

@@ -1,0 +1,22 @@
+[
+    {
+        "caption":"Apigee: Create API Proxy",
+        "command":"create_api_proxy"
+    },
+
+    {
+        "caption": "Apigee: Add new policy",
+        "command": "create_file_from_template"
+    },
+
+    {
+        "caption": "Apigee: Add Step",
+        "command": "add_step"    
+    },
+
+    {
+        "caption": "Apigee: Fetch policy",
+        "command": "fetch"
+    }
+
+]

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RegularExpressionProtection async="false" continueOnError="false" enabled="true" name="regularexpressionprotection-1">
+    <DisplayName>RegularExpressionProtection-1</DisplayName>
+    <FaultRules/>
+    <Properties/>
+    <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+    <JSONPayload>
+        <JSONPath>
+            <Pattern ignoreCase="false">pattern</Pattern>
+            <Expression>expression</Expression>
+        </JSONPath>
+    </JSONPayload>
+    <URIPath>
+        <Pattern ignoreCase="false">pattern</Pattern>
+    </URIPath>
+    <QueryParam name="qparam">
+        <Pattern/>
+    </QueryParam>
+    <Header name="header">
+        <Pattern/>
+    </Header>
+    <FormParam name="fparam">
+        <Pattern/>
+    </FormParam>
+    <Variable name="myVariable">
+        <Pattern/>
+    </Variable>
+    <Source>request</Source>
+    <XMLPayload>
+        <Namespaces/>
+        <XPath>
+            <Pattern ignoreCase="false">pattern</Pattern>
+            <Expression>expression</Expression>
+            <Type>string</Type>
+        </XPath>
+    </XMLPayload>
+</RegularExpressionProtection>

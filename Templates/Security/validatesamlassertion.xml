@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ValidateSAMLAssertion ignoreContentType="false" name="validatesamlassertion-1">
+    <DisplayName>ValidateSAMLAssertion-1</DisplayName>
+    <Source/>
+    <Description/>
+    <TrustStore/>
+    <RemoveAssertion>false</RemoveAssertion>
+</ValidateSAMLAssertion>
