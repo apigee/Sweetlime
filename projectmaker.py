@@ -1,21 +1,13 @@
 import sublime, sublime_plugin, os, shutil, re, codecs
 __ST3 = int(sublime.version()) >= 3000
 if __ST3:
-<<<<<<< HEAD
     from ApigeeSweetLime.configuration import ConfigurationReader
-=======
-    from STProjectMaker.configuration import ConfigurationReader
->>>>>>> 373042c83b6912f5626e34f93e2752187a745119
 else:
     from configuration import ConfigurationReader
 
 class ProjectMakerCommand(sublime_plugin.WindowCommand):
     def run(self):
-<<<<<<< HEAD
         settings = sublime.load_settings("ProjectMaker.sublime-settings")
-=======
-        settings = sublime.load_settings("STProjectMaker.sublime-settings")
->>>>>>> 373042c83b6912f5626e34f93e2752187a745119
         templates_path_setting = settings.get('template_path')
         default_project_path_setting = settings.get('default_project_path')
 
