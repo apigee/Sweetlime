@@ -1,10 +1,10 @@
-""" Configuration helper for STProjectMaker """
+""" Configuration helper for ProjectMaker """
 
 import json, os
 import sublime
 __ST3 = int(sublime.version()) >= 3000
 if __ST3:
-    from STProjectMaker.filetask import RemoteFileFetchTask 
+    from ApigeeSweetLime.filetask import RemoteFileFetchTask 
 else:
     from filetask import RemoteFileFetchTask
 

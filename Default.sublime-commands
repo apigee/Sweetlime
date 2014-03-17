@@ -4,7 +4,7 @@
     },
 
     {
-        "caption": "Apigee: New Policy",
+        "caption": "Apigee: Create New Policy",
         "command": "create_policy_from_template"
     },
 
@@ -14,12 +14,16 @@
     },
 
     {
-        "caption": "Apigee: Fetch policy",
+        "caption": "Apigee: Fetch Policy Template",
         "command": "fetch_policy_template"
     },
     {
         "caption":"Apigee: Deploy Proxy",
         "command":"deploy_proxy"
+    },
+    {
+        "caption":"Apigee: Add Flow to Proxy",
+        "command":"add_flow"
     }
 
 ]

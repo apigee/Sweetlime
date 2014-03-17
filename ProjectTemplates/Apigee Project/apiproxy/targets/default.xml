@@ -7,7 +7,7 @@
         <Response/>
     </PreFlow>
     <HTTPTargetConnection>
-        <URL>OPEN-TO BE DEALT WITH</URL>
+        <URL>https://api.usergrid.com</URL>
     </HTTPTargetConnection>
     <PostFlow name="PostFlow">
         <Request/>
