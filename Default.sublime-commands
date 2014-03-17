@@ -1,12 +1,11 @@
-[
-    {
-        "caption":"Apigee: Create API Proxy",
-        "command":"create_api_proxy"
+[   {
+        "caption":"Apigee: New Proxy",
+        "command":"project_maker"
     },
 
     {
-        "caption": "Apigee: Add new policy",
-        "command": "create_file_from_template"
+        "caption": "Apigee: New Policy",
+        "command": "create_policy_from_template"
     },
 
     {
@@ -16,7 +15,11 @@
 
     {
         "caption": "Apigee: Fetch policy",
-        "command": "fetch"
+        "command": "fetch_policy_template"
+    },
+    {
+        "caption":"Apigee: Deploy Proxy",
+        "command":"deploy_proxy"
     }
 
 ]

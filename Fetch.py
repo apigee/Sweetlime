@@ -7,7 +7,7 @@ from xml.etree import ElementTree
 
 current_path = None
 
-class FetchCommand(sublime_plugin.WindowCommand):
+class FetchPolicyTemplateCommand(sublime_plugin.WindowCommand):
     ROOT_DIR_PREFIX = '[root: '
     ROOT_DIR_SUFFIX = ']'
     INPUT_PANEL_CAPTION = 'File name:'
