@@ -1,6 +1,6 @@
 <Step>
 	<Condition></Condition>
-    <Name></Name>
+    <Name>${policy_name}</Name>
     <FaultRules></FaultRules>
 </Step>
             
