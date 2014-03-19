@@ -9,7 +9,7 @@ If you just went and installed [Package Control](http://wbond.net/sublime_packag
 Bring up the Command Palette (Command+Shift+p on OS X, Control+Shift+p on Linux/Windows).
 Select "Package Control: Install Package" (it'll take a few seconds)
 Select **Apigee SweetLime** when the list appears.
-Package Control will automatically keep Quick File Creator up to date with the latest version.
+Package Control will automatically keep SweetLime up to date with the latest version.
 
 ###Without Git: 
 Download the latest source from GitHub and copy the SweetLime folder to your Sublime Text "Packages" directory.
