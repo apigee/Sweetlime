@@ -1,12 +1,18 @@
 #SWEETLIME beta
 ## SweetLime (beta) for SublimeText3
-Sweetlime is ST3 plugin to develop Apigee Proxies. With built in template support for policies, steps and flows, SweetLime helps proxy developers build proxies with ease.
+SweetLime is ST3 plugin to develop Apigee Proxies. With built in template support for policies, steps and flows, SweetLime helps proxy developers build proxies with ease.
 
 ##Installing
-As of now, Sweetlime can only be obtained from the git repo. SweetLime will go onto package control once its out of beta.
+###Package Control (Not yet submitted)
+The easiest way to install this is with Package Control.
+If you just went and installed [Package Control](http://wbond.net/sublime_packages/package_control), you probably need to restart Sublime Text 3 before doing this next bit.
+Bring up the Command Palette (Command+Shift+p on OS X, Control+Shift+p on Linux/Windows).
+Select "Package Control: Install Package" (it'll take a few seconds)
+Select **Apigee SweetLime** when the list appears.
+Package Control will automatically keep Quick File Creator up to date with the latest version.
 
 ###Without Git: 
-Download the latest source from GitHub and copy the SublimeLinter folder to your Sublime Text "Packages" directory.
+Download the latest source from GitHub and copy the SweetLime folder to your Sublime Text "Packages" directory.
 
 ###With Git: 
 Clone the repository in your Sublime Text "Packages" directory:
@@ -17,7 +23,7 @@ The "Packages" directory is located at:
 > OS X: ~/Library/Application Support/Sublime Text 3/Packages/
 
 ##Using
-Sweetlime is very intuitive. Bring up the command pallette (OS X: command + shift + p) and type Apigee to see the list of all possible options Sweetlime provides.
+SweetLime is very intuitive. Bring up the command pallette (OS X: command + shift + p) and type Apigee to see the list of all possible options Sweetlime provides.
 
 ###Apigee: New Proxy
 to create a new proxy from scratch
