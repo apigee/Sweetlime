@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ProxyEndpoint name="default">
     <Description/>
-    <Flows/>
+    <Flows></Flows>
     <PreFlow name="PreFlow">
-        <Request/>
-        <Response/>
+        <Request></Request>
+        <Response></Response>
     </PreFlow>
     <HTTPProxyConnection>
         <BasePath>/v1/${project_name}</BasePath>
@@ -15,7 +15,7 @@
         <TargetEndpoint>default</TargetEndpoint>
     </RouteRule>
     <PostFlow name="PostFlow">
-        <Request/>
-        <Response/>
+        <Request></Request>
+        <Response></Response>
     </PostFlow>
 </ProxyEndpoint>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<GetOAuthV1Info async="false" continueOnError="false" enabled="true" name="getoauthv10ainfo-1">
+<GetOAuthV1Info async="false" continueOnError="false" enabled="true" name="$name">
     <DisplayName>GetOAuthv10aInfo-1</DisplayName>
     <ConsumerKey ref="{flow.variable}">{value}</ConsumerKey>
     <RequestToken ref="{flow.variable}">{request token}</RequestToken>

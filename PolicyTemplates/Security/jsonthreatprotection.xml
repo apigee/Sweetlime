@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<JSONThreatProtection async="false" continueOnError="false" enabled="true" name="jsonthreatprotection-1">
+<JSONThreatProtection async="false" continueOnError="false" enabled="true" name="$name">
     <DisplayName>JSONThreatProtection-1</DisplayName>
     <FaultRules/>
     <Properties/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<XMLThreatProtection async="false" continueOnError="false" enabled="true"  name="xmlthreatprotection-1">
+<XMLThreatProtection async="false" continueOnError="false" enabled="true"  name="$name">
     <DisplayName>XMLThreatProtection-1</DisplayName>
     <FaultRules/>
     <Properties/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<RaiseFault async="false" continueOnError="false" enabled="true" name="raisefault-1">
+<RaiseFault async="false" continueOnError="false" enabled="true" name="$name">
     <DisplayName>RaiseFault-1</DisplayName>
     <FaultRules/>
     <Properties/>

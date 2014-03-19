@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<JSONToXML async="false" continueOnError="false" enabled="true" name="jsontoxml-1">
+<JSONToXML async="false" continueOnError="false" enabled="true" name="$name">
     <DisplayName>JSONtoXML-1</DisplayName>
     <FaultRules/>
     <Properties/>

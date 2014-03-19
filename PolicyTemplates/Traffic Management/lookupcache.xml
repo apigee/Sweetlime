@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<LookupCache async="false" continueOnError="false" enabled="true" name="lookupcache-1">
+<LookupCache async="false" continueOnError="false" enabled="true" name="$name">
     <DisplayName>LookupCache-1</DisplayName>
     <FaultRules/>
     <Properties/>

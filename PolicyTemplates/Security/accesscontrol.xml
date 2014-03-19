@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<AccessControl async="false" continueOnError="false" enabled="true" name="accesscontrol-1">
+<AccessControl async="false" continueOnError="false" enabled="true" name="$name">
     <DisplayName>AccessControl-1</DisplayName>
     <FaultRules/>
     <Properties/>

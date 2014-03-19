@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<MessageValidation async="false" continueOnError="false" enabled="true" name="soapmessagevalidation-1">
+<MessageValidation async="false" continueOnError="false" enabled="true" name="$name">
     <DisplayName>SOAPMessageValidation-1</DisplayName>
     <FaultRules/>
     <Properties/>

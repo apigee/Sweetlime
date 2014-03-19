@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ConcurrentRatelimit async="false" continueOnError="false" enabled="true" name="concurrentratelimit-1">
+<ConcurrentRatelimit async="false" continueOnError="false" enabled="true" name="$name">
     <DisplayName>ConcurrentRateLimit-1</DisplayName>
     <AllowConnections count="200" ttl="5"/>
     <Distributed>true</Distributed>

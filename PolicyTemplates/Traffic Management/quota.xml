@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Quota async="false" continueOnError="false" enabled="true" name="quota-1" type="calendar">
+<Quota async="false" continueOnError="false" enabled="true" name="$name" type="calendar">
     <DisplayName>Quota-1</DisplayName>
     <FaultRules/>
     <Properties/>

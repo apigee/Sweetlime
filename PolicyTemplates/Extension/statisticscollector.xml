@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<StatisticsCollector async="false" continueOnError="false" enabled="true" name="statisticscollector-1">
+<StatisticsCollector async="false" continueOnError="false" enabled="true" name="$name">
     <DisplayName>StatisticsCollector-1</DisplayName>
     <FaultRules/>
     <Properties/>

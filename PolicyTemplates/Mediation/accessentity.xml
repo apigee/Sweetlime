@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<AccessEntity async="false" continueOnError="false" enabled="true" name="accessentity-1">
+<AccessEntity async="false" continueOnError="false" enabled="true" name="$name">
     <DisplayName>AccessEntity-1</DisplayName>
     <FaultRules/>
     <Properties/>

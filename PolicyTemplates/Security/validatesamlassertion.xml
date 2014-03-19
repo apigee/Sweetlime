@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ValidateSAMLAssertion ignoreContentType="false" name="validatesamlassertion-1">
+<ValidateSAMLAssertion ignoreContentType="false" name="$name">
     <DisplayName>ValidateSAMLAssertion-1</DisplayName>
     <Source/>
     <Description/>
