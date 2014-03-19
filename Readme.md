@@ -36,7 +36,9 @@ Video: https://drive.google.com/a/apigee.com/file/d/0B3oMAw9aBJOJUFQtOGVEWmZIMUk
 Thanks to all the super-geeks who have coded modules like Fetch, STProjectTemplates and many other super awesome sublime plugins that helped me in my endeavor
 
 ##Contribute
-All proxy developers - please use SweetLime :-)
+All proxy developers - please use SweetLime, break it, harass it and ask for feature developments
+Want to contribute more? - fork sweetlime, start coding and send me a pull request.
+
 
 
 
