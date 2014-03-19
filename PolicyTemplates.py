@@ -210,3 +210,5 @@ class PolicyTemplatesListener(sublime_plugin.EventListener):
 def populate_file(view):
     global template
     view.run_command("insert_snippet", {'contents': template["content"]})
+
+

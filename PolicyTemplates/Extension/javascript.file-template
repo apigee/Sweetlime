@@ -9,6 +9,6 @@
 	<!-- Optional: Add as much arguments as you need, they will be asked in the order specified -->
 	<arguments>
 		<name>Name (without extension):</name>
-		<name>Associated JS name</name>
+		<!--<name>Associated JS name</name>-->
 	</arguments>
 </template>

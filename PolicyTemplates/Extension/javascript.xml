@@ -3,5 +3,8 @@
     <DisplayName>JavaScript-1</DisplayName>
     <FaultRules/>
     <Properties/>
-    <ResourceURL>jsc://javascript-1</ResourceURL>
+    <ResourceURL>jsc://js_$name</ResourceURL>
 </Javascript>
+
+<!-- Attention: This version of SweetLime does not automatically create the javascript file. Please create the
+js file "js_$name" under resources/jsc -->
