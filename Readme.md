@@ -18,7 +18,8 @@ The "Packages" directory is located at:
 > OS X: ~/Library/Application Support/Sublime Text 3/Packages/
 
 ##Using
-Sweetlime is very intuitive. Bring up the command pallette (OS X: command + shift + p)
+Sweetlime is very intuitive. Bring up the command pallette (OS X: command + shift + p) and type Apigee to see the list of all possible options Sweetlime provides
+![](//Screen%20Shot%202014-03-19%20at%209.05.32%20am.png)
 
 
 
