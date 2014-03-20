@@ -3,7 +3,7 @@
 SweetLime is ST3 plugin to develop Apigee Proxies. With built in template support for policies, steps and flows, SweetLime helps proxy developers build proxies with ease.
 
 ##Installing
-###Package Control (Not yet submitted)
+###Package Control (Not yet submitted - for now use the other two options)
 The easiest way to install this is with Package Control.
 If you just went and installed [Package Control](http://wbond.net/sublime_packages/package_control), you probably need to restart Sublime Text 3 before doing this next bit.
 Bring up the Command Palette (Command+Shift+p on OS X, Control+Shift+p on Linux/Windows).
