@@ -1,4 +1,5 @@
 #SWEETLIME beta
+![](/https://cdn1.iconfinder.com/data/icons/Limon_iContainer/128/Lime.png)
 ## SweetLime (beta) for SublimeText3
 SweetLime is ST3 plugin to develop Apigee Proxies. With built in template support for policies, steps and flows, SweetLime helps proxy developers build proxies with ease.
 
