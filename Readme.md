@@ -48,7 +48,7 @@ Want to contribute more? - fork sweetlime, start coding and send me a pull reque
 
 ##Licence
 
-All of SweetLime is licensed under the MIT licence.
+All of SweetLime is licensed under the Apache License, Version 2
 
 Copyright (c) 2014 Girish Rangaswamy @ Apigee Corp 
 
