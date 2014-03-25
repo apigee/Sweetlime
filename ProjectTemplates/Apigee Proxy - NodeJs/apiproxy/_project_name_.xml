@@ -2,7 +2,7 @@
 <APIProxy revision="1" name="nodejsdummy">
     <ConfigurationVersion minorVersion="0" majorVersion="4"/>
     <CreatedAt></CreatedAt>
-    <CreatedBy></CreatedBy>
+    <CreatedBy>noreply_admin@apigee.com</CreatedBy>
     <Description></Description>
     <DisplayName>${project_name}</DisplayName>
     <LastModifiedAt></LastModifiedAt>
