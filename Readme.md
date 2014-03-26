@@ -18,10 +18,11 @@ Download the latest source from GitHub and copy the SweetLime folder to your Sub
 ###With Git: 
 Clone the repository in your Sublime Text "Packages" directory:
 
-> git clone [git@github.com:apigee/Sweetlime.git]()
+OSX
+> `git clone git@github.com:apigee/Sweetlime.git ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/ApigeeSweetLime'
 
-The "Packages" directory is located at:
-> OS X: ~/Library/Application Support/Sublime Text 3/Packages/
+Windows
+> coming soon (testing underway)
 
 ##Using
 SweetLime is very intuitive. Bring up the command pallette (OS X: command + shift + p) and type Apigee to see the list of all possible options Sweetlime provides.
