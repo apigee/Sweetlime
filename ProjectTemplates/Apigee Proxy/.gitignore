@@ -1,1 +1,3 @@
 ${project_name}.sublime-project
+deploy.py
+deploy_vars.json

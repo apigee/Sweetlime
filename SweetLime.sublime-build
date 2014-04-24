@@ -1,0 +1,5 @@
+{
+    "cmd"       : ["python", "-u", "deploy.py" ],
+  	"selector"  : "source.python",
+  	"working_dir": "${project_path:${folder}}"
+}

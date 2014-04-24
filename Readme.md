@@ -27,14 +27,6 @@ Windows
 ##Using
 SweetLime is very intuitive. Bring up the command pallette (OS X: command + shift + p) and type Apigee to see the list of all possible options Sweetlime provides.
 
-**Video**: 
-
-Quick Introduction:
-http://youtu.be/W-WDjIkeDcs
-
-Build an Apigee proxy with SweetLime:
-http://youtu.be/TMVIEFuQr7k
-
 ###Apigee: New Proxy
 to create a new proxy from scratch
 ###Apigee: Add Flow to Proxy
@@ -45,6 +37,8 @@ to add a steps - existing and new
 to create new policy from a list of policy templates
 ###Apigee: Fetch Policy Templates
 to fetch a policy template to a file
+
+Video: https://drive.google.com/a/apigee.com/file/d/0B3oMAw9aBJOJUFQtOGVEWmZIMUk/edit?usp=sharing
 
 ##Credits
 Thanks to all the super-geeks who have coded modules like Fetch, STProjectTemplates and many other super awesome sublime plugins that helped me in my endeavor

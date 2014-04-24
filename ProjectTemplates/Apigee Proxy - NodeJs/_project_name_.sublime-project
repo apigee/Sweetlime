@@ -2,7 +2,11 @@
 	"folders":
 	[
 		{
-			"path": "${project_path}"
+			"path": "${project_path}",
+			"file_exclude_patterns": [
+				"deploy.py",
+				"*.sublime-project"
+			]		
 		}
 	]
 }

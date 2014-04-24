@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="nodejsdummy">
+    <ConfigurationVersion minorVersion="0" majorVersion="4"/>
+    <CreatedAt></CreatedAt>
+    <CreatedBy>noreply_admin@apigee.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>${project_name}</DisplayName>
+    <LastModifiedAt></LastModifiedAt>
+    <LastModifiedBy></LastModifiedBy>
+    <Policies/>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>node://app.js</Resource>
+    </Resources>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
