@@ -6,7 +6,7 @@
 			"file_exclude_patterns": [
 				"deploy.py",
 				"*.sublime-project"
-			]		
+			]			
 		}
 	]
 }

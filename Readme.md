@@ -3,6 +3,8 @@
 ## SweetLime (beta) for SublimeText3
 SweetLime is ST3 plugin to develop Apigee Proxies. With built in template support for policies, steps and flows, SweetLime helps proxy developers build proxies with ease.
 
+Intro video: https://www.youtube.com/watch?v=W-WDjIkeDcs
+
 ##Installing
 ###Package Control (Not yet submitted - for now use the other two options)
 The easiest way to install this is with Package Control.
@@ -24,7 +26,9 @@ OSX
 Windows
 > coming soon (testing underway)
 
-##Using
+##Using SweetLime
+
+##Create proxy, add policies
 SweetLime is very intuitive. Bring up the command pallette (OS X: command + shift + p) and type Apigee to see the list of all possible options Sweetlime provides.
 
 ###Apigee: New Proxy
@@ -38,7 +42,32 @@ to create new policy from a list of policy templates
 ###Apigee: Fetch Policy Templates
 to fetch a policy template to a file
 
-Video: https://drive.google.com/a/apigee.com/file/d/0B3oMAw9aBJOJUFQtOGVEWmZIMUk/edit?usp=sharing
+##Deploying
+Proxies developed with SweetLime can be deployed to either the Apigee cloud or your on-prem apigee edge installation (OPDK customers).
+
+SweetLime utilizes the Build framework provided by SublimeText to achieve the deploy feature. 
+
+Proxies created with SweetLime now come with a new json file called "deploy_vars.json" with the following content
+
+{
+    "org":"ORGNAME (MANDATORY)",
+    "env":"ENVIRONMENT (MANDATORY)",
+    "username":"USERNAME (MANDATORY)",
+    "password":"PASSWORD" (OPTIONAL), 
+    "uri":"MANAGEMENT SERVER URL (OPTIONAL)" 
+}
+
+###password 
+If the "password" field is left empty SweetLime tries to read the same from mac's keychain.
+
+To connect to keychain, SweetLime uses an open source python module called "keyring" (https://pypi.python.org/pypi/keyring). Installation of keyring is mandatory if you wish to go the secure way. 
+
+>>>$ easy_install keyring 
+
+>>> keyring.set_password("orgname", "username", "password")
+
+###uri
+If your deploy destination is Apigee cloud then leave this empty, else provide the url to the management server on your OPDK installation
 
 ##Credits
 Thanks to all the super-geeks who have coded modules like Fetch, STProjectTemplates and many other super awesome sublime plugins that helped me in my endeavor

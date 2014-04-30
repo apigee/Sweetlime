@@ -12,7 +12,7 @@
         <ProxyEndpoint>default</ProxyEndpoint>
     </ProxyEndpoints>
     <Resources>
-        <Resource>node://hello-world.js</Resource>
+        <Resource>node://app.js</Resource>
     </Resources>
     <TargetServers/>
     <TargetEndpoints>

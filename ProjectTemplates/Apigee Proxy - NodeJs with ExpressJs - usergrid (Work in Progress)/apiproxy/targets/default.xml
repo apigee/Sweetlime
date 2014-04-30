@@ -7,7 +7,7 @@
         <Response/>
     </PreFlow>
     <ScriptTarget>
-        <ResourceURL>node://hello-world.js</ResourceURL>
+        <ResourceURL>node://app.js</ResourceURL>
         <Properties/>
     </ScriptTarget>
     <PostFlow name="PostFlow">
