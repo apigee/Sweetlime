@@ -56,7 +56,7 @@ Proxies created with SweetLime now come with a new json file called "deploy_vars
     "org":"ORGNAME (MANDATORY)",
     "env":"ENVIRONMENT (MANDATORY)",
     "username":"USERNAME (MANDATORY)",
-    "password":"PASSWORD" (OPTIONAL), 
+    "password":"PASSWORD (OPTIONAL)", 
     "uri":"MANAGEMENT SERVER URL (OPTIONAL)" 
 }
 ```
