@@ -1,0 +1,7 @@
+{
+	"org":"ORGANISATION",
+	"env":"ENVIRONMENT",
+	"username":"USERNAME",
+	"password":"PASSWORD (OPTIONAL)", 
+	"uri":"MGMT SERVER URL(OPTIONAL)"
+}
