@@ -38,7 +38,7 @@ def validateAndDeploy(data):
 			print("INFO: No Password specified in 'deploy_vars.json' - trying to access Mac keychain")
 			try:
 				import keyring
-				os.environ['pass'] = keyring.get_password(os.environ['org'],os.environ['user'])
+				os.environ['pass'] = keyring.get_password(os.environ['org'],os.environ['user']) or ""
 				if not os.environ['pass']:
 					print("ERROR: Maintain password either in 'deploy_vars.json' or in Mac Keychain | Deploy suspended")
 				else:
