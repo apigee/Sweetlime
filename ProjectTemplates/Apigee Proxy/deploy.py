@@ -24,7 +24,10 @@ def validateAndDeploy(data):
 		os.environ['uri'] = ""
 	else:
 		os.environ['uri'] = data["uri"]
-
+	if data['basepath']:
+		os.environ['basepath']=data['basepath']
+	if data['displayname']:
+		os.environ['displayname']=data['displayname']
 
 	if data["env"] and data["org"] and data["username"]:
 		os.environ['user'] = data["username"]
@@ -59,6 +62,10 @@ def deployApi():
 		command = "/usr/local/bin/apigeetool deployproxy -n $proxy -o $org -e $env -u $user -p $pass -d $dir -l $uri"
 	else:
 		command = "/usr/local/bin/apigeetool deployproxy -n $proxy -o $org -e $env -u $user -p $pass -d $dir"
+	if os.environ['displayname']:
+		command +=" -n $displayname"
+	if os.environ['basepath']:
+		command+=" -b $basepath"
 
 	print("INFO: This takes a while - anywhere from 30 - 50 secs on Apigee cloud (psst:'ctrl+c' will cancel deploying)")
 
