@@ -3,5 +3,7 @@
 	"env":"ENVIRONMENT",
 	"username":"USERNAME",
 	"password":"PASSWORD (OPTIONAL)", 
-	"uri":"MGMT SERVER URL(OPTIONAL)"
+	"uri":"MGMT SERVER URL(OPTIONAL)",
+	"displayname":"DISPLAY NAME (OPTIONAL)",
+	"basepath":"BASEPATH (OPTIONAL)"
 }

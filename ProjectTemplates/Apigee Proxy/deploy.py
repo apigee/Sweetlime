@@ -20,15 +20,12 @@ def extractDeployVars():
 
 
 def validateAndDeploy(data):
-	if not data["uri"]:
-		os.environ['uri'] = ""
-	else:
-		os.environ['uri'] = data["uri"]
-	if data['basepath']:
-		os.environ['basepath']=data['basepath']
-	if data['displayname']:
-		os.environ['displayname']=data['displayname']
+#optional fields
+	os.environ['uri'] = data['uri']
+	os.environ['basepath']= data['basepath']
+	os.environ['displayname']= data['displayname']
 
+#mandatory ones
 	if data["env"] and data["org"] and data["username"]:
 		os.environ['user'] = data["username"]
 		os.environ['org']  = data["org"]
@@ -57,15 +54,18 @@ def validateAndDeploy(data):
 		print("ERROR: Maintain values for 'org', 'env','username' in 'deploy_vars.json' | Deploy suspended")
 
 def deployApi():
+	command = "/usr/local/bin/apigeetool deployproxy -o $org -e $env -u $user -p $pass -d $dir"
+	
+	if os.environ['displayname']:
+		command += " -n $displayname"
+	else:
+		command += " -n $proxy"
 
 	if os.environ['uri']:
-		command = "/usr/local/bin/apigeetool deployproxy -n $proxy -o $org -e $env -u $user -p $pass -d $dir -l $uri"
-	else:
-		command = "/usr/local/bin/apigeetool deployproxy -n $proxy -o $org -e $env -u $user -p $pass -d $dir"
-	if os.environ['displayname']:
-		command +=" -n $displayname"
+		command += " -l $uri"
+
 	if os.environ['basepath']:
-		command+=" -b $basepath"
+		command += " -b $basepath"
 
 	print("INFO: This takes a while - anywhere from 30 - 50 secs on Apigee cloud (psst:'ctrl+c' will cancel deploying)")
 
