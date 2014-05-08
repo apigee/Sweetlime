@@ -53,17 +53,22 @@ Proxies created with SweetLime now come with a new json file called "deploy_vars
 
 ```json
 {
-    "org":"ORGNAME (MANDATORY)",
-    "env":"ENVIRONMENT (MANDATORY)",
-    "username":"USERNAME (MANDATORY)",
-    "password":"PASSWORD (OPTIONAL)", 
-    "uri":"MANAGEMENT SERVER URL (OPTIONAL)" 
+	"org":"ORGANISATION",
+	"env":"ENVIRONMENT",
+	"username":"USERNAME",
+	"password":"PASSWORD (OPTIONAL)",
+	"uri":"MGMT SERVER URL(OPTIONAL)",
+	"displayname":"DISPLAY NAME (OPTIONAL)",
+	"basepath":"BASEPATH (OPTIONAL)"
 }
 ```
 
 [Video: Deploying proxies to Apigee Edge](http://youtu.be/ya1Jt4apFjM)
 
-###password 
+###org, env & username 
+These three self explaining variables are mandatory
+
+###password - conditionally optional
 If the "password" field is left empty SweetLime tries to read the same from mac's keychain.
 
 To connect to keychain, SweetLime uses an open source python module called "keyring" (https://pypi.python.org/pypi/keyring). Installation of keyring is mandatory if you wish to go the secure way. 
@@ -72,8 +77,14 @@ To connect to keychain, SweetLime uses an open source python module called "keyr
 $ easy_install keyring 
 keyring.set_password("orgname", "username", "password")
 ```
-###uri
+###uri - optional
 If your deploy destination is Apigee cloud then leave this empty, else provide the url to the management server on your OPDK installation
+
+###displayname - optional
+If displayname is not provided, it will be defaulted to the proxy name
+
+###basepath - optional
+Use it when you want to provide a basepath for your proxy. 
 
 ##Credits
 Thanks to all the super-geeks who have coded modules like Fetch, STProjectTemplates and many other super awesome sublime plugins that helped me in my endeavor
