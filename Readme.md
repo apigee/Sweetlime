@@ -32,24 +32,28 @@ Windows
 SweetLime is very intuitive. Bring up the command pallette (OS X: command + shift + p) and type Apigee to see the list of all possible options Sweetlime provides.
 
 ###Apigee: New Proxy
-to create a new proxy from scratch
+Creates a new proxy from scratch.
 ###Apigee: Add Flow to Proxy
-to add the flow template to your proxy
+Adds the flow template to your proxy.
 ###Apigee: Add Step
-to add a steps - existing and new
+Adds a policy step - existing and new.
 ###Apigee: Create New Policy
-to create new policy from a list of policy templates
+Creates a new policy from a list of policy templates.
 ###Apigee: Fetch Policy Templates
-to fetch a policy template to a file
+Fetches a policy template to a file.
 
 [Video: Developing proxies for Apigee Edge](https://www.youtube.com/watch?v=TMVIEFuQr7k)
 
 ##Deploying
 Proxies developed with SweetLime can be deployed to either the Apigee cloud or your on-prem apigee edge installation (OPDK customers).
 
-SweetLime utilizes the Build framework provided by SublimeText to achieve the deploy feature. 
+**Note:** Deploy relies on the `apigeetool` deploy script that is installed with Apigee's [apigee-platform-tools][1]. By default, SweetLime looks in `/usr/local/bin` for this executable file. If the file is not located in `/usr/local/bin` on your system, then you need to edit the `deploy.py` file in the root directory of your SweetLime project, and add the correct target directory for `apigeetool`. 
 
-Proxies created with SweetLime now come with a new json file called "deploy_vars.json" with the following content
+SweetLime uses the Build framework provided by SublimeText to handle the deploy feature. Just select **Tools > Build System > Sweetlime** to activate the SweetLime  build system for your project.
+
+To execute a deploy, select **Tools > Build**. Or, use the keyboard shortcut (Command-b on the Mac).
+
+Proxies created with SweetLime include a JSON file called `deploy_vars.json` with the following content. Substitute your information in this file before executing a build.
 
 ```json
 {
@@ -106,7 +110,4 @@ The above copyright notice and this permission notice shall be included in all c
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
-
-
-
-
+  [1]: https://github.com/apigee/api-platform-tools
